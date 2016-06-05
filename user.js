@@ -184,9 +184,7 @@ Object.prototype.userChildren = function(){
     var chid=this.childNodes;
     var eleMatch = [];
     for(var i=0,l=chid.length;i<l;i++){
-        if(chid[i]!=this){
-            eleMatch.push(chid[i]);
-        }
+        eleMatch.push(chid[i]);
     }
     return eleMatch;
 }
